@@ -51,6 +51,11 @@ in
         type = port;
         default = 8132;
       };
+      externalAddress = mkOption {
+        description = "External address for konnectivity agent to connect to. Useful for remote workers.";
+        type = str;
+        default = "";
+      };
     };
 
     controllerManager.extraArgs = mkStringMapOption {
