@@ -1,17 +1,17 @@
 {
-  version = "1.33.8+k0s.1";
+  version = "1.33.10+k0s.0";
   srcs = {
     armv7l-linux = {
-      url = "https://github.com/k0sproject/k0s/releases/download/v1.33.8+k0s.1/k0s-v1.33.8+k0s.1-arm";
-      hash = "sha256-alSFWkahfPK5Qs1QoptVQwNPihPxEnibgN/rp6incq0=";
+      url = "https://github.com/k0sproject/k0s/releases/download/v1.33.10+k0s.0/k0s-v1.33.10+k0s.0-arm";
+      hash = "sha256-/aXehKbZ9QtG/mPMyt/m00zU/RkPOl6zd/4OiiRWK0U=";
     };
     aarch64-linux = {
-      url = "https://github.com/k0sproject/k0s/releases/download/v1.33.8+k0s.1/k0s-v1.33.8+k0s.1-arm64";
-      hash = "sha256-VOej+5gxHjwc+nfRpkzTH1s2BhkTNw6Y2gTmQwLbysk=";
+      url = "https://github.com/k0sproject/k0s/releases/download/v1.33.10+k0s.0/k0s-v1.33.10+k0s.0-arm64";
+      hash = "sha256-pro5ETzZNSo3qXH+vU7iC+lUcOYO02YLVb97A+oh05Q=";
     };
     x86_64-linux = {
-      url = "https://github.com/k0sproject/k0s/releases/download/v1.33.8+k0s.1/k0s-v1.33.8+k0s.1-amd64";
-      hash = "sha256-qQ+KJk6X14g2fbTcDz9eKi4H5KRJJetEQUT0lozjxNs=";
+      url = "https://github.com/k0sproject/k0s/releases/download/v1.33.10+k0s.0/k0s-v1.33.10+k0s.0-amd64";
+      hash = "sha256-rM8H4bfy/g7GCiCrlgOGW/wpVrTzXvzupusJDvIFlUQ=";
     };
   };
 }
