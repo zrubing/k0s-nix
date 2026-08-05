@@ -1,7 +1,7 @@
 {
   description = "k0s - The Zero Friction Kubernetes for NixOS";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
 
   outputs =
     { self, nixpkgs, ... }:
@@ -17,6 +17,7 @@
           k0s_1_33
           k0s_1_34
           k0s_1_35
+          k0s_1_36
           ;
         k0s = k0s_1_35;
       };
